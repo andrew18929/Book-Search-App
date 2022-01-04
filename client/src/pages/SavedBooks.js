@@ -22,7 +22,7 @@ const SavedBooks = () => {
     return <div>Still Loading...</div>;
   }
 
-  if (!userData?.userName) {
+  if (!userData?.username) {
     return <h4>Please login to view!</h4>;
   }
 
